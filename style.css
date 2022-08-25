@@ -1,0 +1,159 @@
+body{
+    display:contents;
+}
+
+.header{
+    padding: 6px;
+    font-size: 14px;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+    color: #202124;
+}
+
+.header a{
+    text-decoration: none;
+    color: #202124;
+    margin-right: 15px;
+}
+
+.header a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav01{
+    float: left;
+    margin: 20px;
+}
+
+.nav02{
+    float: right;
+    margin: 20px;
+}
+
+.nav02 img{
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border-radius: 50%;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+}
+
+.content{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.textbox{
+    width: 482px;
+    height: 44px;
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    padding-left: 50px;
+    padding-right: 85px;
+    font-size: 14px;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+    color: #202124;   
+}
+
+.textbox:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+.search-icon{
+    position: relative;
+    left: 45px;
+    margin-top: 15px;
+}
+
+.keyboard-icon{
+    position: relative;
+    right:80px;
+    padding-bottom: 4px;
+}
+
+.mic-icon{
+    position: relative;
+    right:70px
+}
+
+.btn-area{
+    padding-top: 18px;
+}
+
+.btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.first-line{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    font-size: 14px;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+    color: #202124;
+}
+
+.second-line{
+    padding: 0 20px;
+    font-size: 14px;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+    color: #202124;
+}
+
+.second-line-left{
+    float: left;
+    color: #70757a;
+    padding: 15px;
+}
+
+.second-line-right{
+    float: right;
+    color: #70757a;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.second-line a{
+    text-decoration: none;
+    color: #70757a;
+    padding-right: 15px;
+}
+
+.second-line a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
